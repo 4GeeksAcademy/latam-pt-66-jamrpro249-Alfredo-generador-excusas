@@ -7,6 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
+  //Copie el contenido del ejemplo para hacerlo lo mas parecido posible
     let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
     let action = ['ate', 'peed', 'crushed', 'broke'];
     let what = ['my homework', 'my phone', 'the car'];
