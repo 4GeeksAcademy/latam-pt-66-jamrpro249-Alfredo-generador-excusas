@@ -11,8 +11,8 @@ window.onload = () => {
     ['my homework', 'my phone', 'the car'],
     ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying']
   ];
-
+ 
   const excuse = parts.map(p => p[Math.floor(Math.random() * p.length)]).join(' ');
-
+ 
   document.querySelector("#excuse").innerHTML = excuse;
 };
